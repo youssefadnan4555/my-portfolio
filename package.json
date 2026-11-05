@@ -1,0 +1,27 @@
+{
+  "name": "my-portfolio-2",
+  "version": "1.0.0",
+  "description": "An applied project focused on preparing the development environment, using modern development tools, and structuring the core files for a personal portfolio website.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --module commonjs app.ts productService.ts types.ts test.ts",
+    "start": "node app.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youssefadnan4555/my-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/youssefadnan4555/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/youssefadnan4555/my-portfolio#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
